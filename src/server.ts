@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 import { PrismaClient } from "@prisma/client";
-import { getDMMF, getSchemaSync } from "@prisma/sdk";
+import { getDMMF, getSchemaSync } from "@prisma/internals";
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
 import { afterMiddleware, makeServerConfig, beforeMiddleware } from "./";
